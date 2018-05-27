@@ -1,0 +1,266 @@
+body {
+  font-family: 微軟正黑體;
+}
+
+nav img {
+  width: 443px;
+  height: auto;
+}
+
+#nav_list{
+  font-size: 14px;
+  color:#6c6c6c;
+}
+
+#nav_list:hover {
+  color: #d7ac41;
+}
+
+nav {
+  margin: 10px 60px 0 70px;
+  padding: 0;
+}
+
+nav.container-fluid {
+  padding: 0;
+}
+
+header.masthead  {
+  background-image: url("../img/top-banner.jpg");
+  background-position: center;
+  -webkit-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 782px;
+  width: auto;
+  display: flex;
+  justify-content: center;
+
+}
+
+header h1 {
+  font-size: 80px;
+  font-weight: 600;
+  letter-spacing: 10px;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+header p {
+  font-size: 24px;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#about {
+  background-image: url("../img/about-bg.jpg");
+  height: 754px;
+  width: auto;
+  background-position: center;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+img.rounded {
+  width: 120px;
+  height: 120px;
+}
+
+section #content {
+  display:flex;
+}
+
+#about-icon {
+  padding: 100px 0;
+}
+
+#about-p{
+  color: white;
+  margin-top: -60px;
+}
+
+#about-p p {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.62;
+}
+
+#about-p strong {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+hr {
+  width: 62px;
+  border: solid 1px;
+  color: #d7ac41;
+}
+
+div.items-container {
+    display: grid;
+    grid-template-columns: repeat(4, 270px);
+    grid-template-rows: repeat(4, 60px);
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    margin: 40px auto 100px auto;
+}
+
+div.item {
+    width: 270px;
+    height: 60px;
+    background: rgba(255, 255, 255, 0.7);
+    font-size: 16px;
+    text-align: center;
+    line-height: 60px;
+    color: #6c6c6c;
+}
+
+section.service {
+    display: flex;
+    position: relative;
+    background-image: url("../images/service-bg.jpg");
+    background-position-x: center;
+    background-position-y: top;
+    background-size: cover;
+    height: 667px;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+section.service hr {
+    box-sizing: content-box;
+    width: 62px;
+    border: none;
+    border-top: solid 1px;
+    color: #d7ac41;
+    margin: 100px 0 25px 0;
+}
+
+section.service h3 {
+    font-size: 50px;
+    font-weight: 600;
+    color: #4a494b;
+}
+
+section.team {
+    display: flex;
+    background: white;
+    height: 832px;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+section.team  hr {
+    box-sizing: content-box;
+    width: 62px;
+    border: none;
+    border-top: solid 1px;
+    color: #d7ac41;
+    margin: 100px 0 25px 0;
+}
+
+section.team h3 {
+    font-size: 50px;
+    font-weight: 600;
+    color: #4a494b;
+}
+
+section.team .intro-card {
+    display: flex;
+    width: 570px;
+    height: 400px;
+    background: #F6F7F8;
+    flex-direction: row;
+}
+
+section.team .information {
+    padding-left: 30px;
+}
+
+section.team .information h4 {
+    font-size: 50px;
+    font-weight: 600;
+    padding-top: 60px;
+}
+
+section.team .information h5.title {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+section.team .information h5.motto {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+section.team .information p {
+    margin-bottom: 5px;
+    font-weight: 300;
+}
+
+section.team .information p.email {
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+section.team div.all-member {
+    margin-top: 60px;
+    margin-bottom: 100px;
+}
+
+section.team button.all-member {
+    width: 270px;
+    height: 60px;
+    font-size: 16px;
+    border: 1px solid;
+    color: #d7ac41;
+    outline: none;
+}
+
+footer {
+    height: 437px;
+    background-image: url("../img/footer-bg.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+footer>hr {
+    margin-top: 100px;
+    margin-bottom: 25px;
+    width: 62px;
+    border: solid 1px;
+    color: #d7ac41
+}
+
+footer>h1 {
+    margin-left: 135px;
+    margin-bottom: 40px;
+    font-size: 50px;
+    font-weight: 600;
+    color: #4a494b;
+}
+
+footer>.row {
+    margin-left: 135px;
+}
+
+footer>.row>div {
+    margin-right: 110px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #6C6C6C
+}
+
+footer>.final {
+    margin-top: auto;
+    height: 48px;
+    font-size: 16px;
+    line-height: 48px;
+    background: #2b2c2c;
+    color: white;
+}
